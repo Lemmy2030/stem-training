@@ -1,5 +1,26 @@
-f_num = input("enter the first number :")
-s_num = input("enter the second number :")
-int(f_num) + int(s_num)
-sum_of_nums = f_num + s_num
-print("the sum of the two numbers is " +(int(sum_of_nums)))
+
+type == input("which data type do you want")
+if type == "float":
+    x=float(input("assign a number for x"))
+    y=float(input("assign a number for y"))
+
+if type =="int":
+        x=int(input("assign a number for x"))
+        y=int(input("assign a number for y"))
+
+operation= input("enter operation")
+if operation== 'addition':
+    print(x+y)
+if operation== 'subtraction':
+    print(x-y)
+if operation== 'multiplication':
+    print(x*y)
+if operation== 'division':
+    print(x/y)
+
+solution=(x+y) or (x-y) or (x*y) or (x/y)
+complex_solution=complex(solution)
+
+     print("the solution of this expression in its complex form is","complex_solution")
+
+     

@@ -27,5 +27,5 @@ print(strg)
 
 #lists index can be readressed
 subjects = ["math","science","religious"]
-subjects[2] = "mechanics"
+subjects[2] = "mechanics" 
 print(subjects)

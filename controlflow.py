@@ -22,6 +22,6 @@ if x > = 1 :
         print("student got an A")
     elif grade >= 70 and grade < 80:
         print("student got a B")
-     elif grade >=60 and grade < 70:
+    elif grade >=60 and grade < 70:
             
 

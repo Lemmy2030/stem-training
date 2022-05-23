@@ -1,0 +1,9 @@
+#counting letters in strings 
+str = "hello guys welcome back to my class"
+outstr = "
+for x in str:
+    if x != 's':
+        outstr += x
+        print(outstr)
+
+for 
